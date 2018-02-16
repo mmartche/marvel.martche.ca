@@ -80,8 +80,8 @@ constructor(props) {
 		<Paper zDepth={1} className="helper-home">
 			<label>My public key: 3da6bd5228d8d94dc07abe503558fe16</label><br />
 			<label>Your private key: 1b78b991f1a58bc02a921357f2c62ffc0364c00a</label>
-			<FlatButton label="Entrada Secreta" fullWidth={true} onClick={this.backDoor} />
-			<Link to='/list-characters' style={{display:this.state.styleGoTo}} >Seguir</Link>
+			<FlatButton label="Entrada Secreta" fullWidth={true} onClick={this.backDoor} /><br /><br />
+			<Link to='/list-characters' style={{display:this.state.styleGoTo}} >Seguir sem a Chave</Link>
 		</Paper>
 		</div>
 	  </div>
